@@ -63,10 +63,10 @@ function showResult() {
     
     
     if (num1 > num2) {
-        document.getElementById("result").textContent = "🚩Player 1 Win!";
+        document.getElementById("result").textContent = "🚩 Player 1 Win!";
     }
     else if (num1 < num2) {
-        document.getElementById("result").textContent = "Player 2 Win!🚩";
+        document.getElementById("result").textContent = "Player 2 Win! 🚩";
     }
     else {
         document.getElementById("result").textContent = "Draw";
